@@ -1,0 +1,22 @@
+### 1) GET
+GET https://dummyjson.com/products/1
+
+### 2) POST
+POST https://dummyjson.com/products/add
+Content-Type: application/json
+
+{
+  "title": "New Product",
+  "price": 100
+}
+
+### 3) PUT
+PUT https://dummyjson.com/products/1
+Content-Type: application/json
+
+{
+  "title": "Updated Product"
+}
+
+### 4) DELETE
+DELETE https://dummyjson.com/products/1
